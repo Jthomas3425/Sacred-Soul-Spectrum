@@ -1,7 +1,7 @@
 var express = require("express");
 var Server = express();
 
-app.use(express.static('Resources'))
+Server.use(express.static('Resources'))
 
 Server.get("/",function(req,res){
   console.log("Home page was requested.")
