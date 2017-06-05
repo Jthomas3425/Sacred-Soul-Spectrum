@@ -5,6 +5,8 @@ var Server = express();
 Server.use(express.static("views/Resources/img"));
 Server.use(express.static("views/Resources/css"));
 Server.use(express.static("views/Resources/js"));
+Server.use(express.static("views/Resources/semantic-ui-css"));
+Server.use(express.static("views/Resources/jquery"));
 
 Server.get("/",function(req,res){
   console.log("Home page was requested.")
