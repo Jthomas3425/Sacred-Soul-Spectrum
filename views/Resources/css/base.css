@@ -1,9 +1,14 @@
 body{
-  background-image: url("galaxy1.jpg");
   font-style: normal;
   background-size: auto;
+  background-image: url("galaxy1.jpg");
 }
 
 p{
   color: white;
+}
+
+div.ui{
+    background-image: url("galaxy1.jpg");
+    opacity: 0.6
 }
