@@ -1,7 +1,7 @@
 body{
   background-image: url("galaxy1.jpg");
   font-style: normal;
-  background-size: contain;
+  background-size: auto;
 }
 
 p{
